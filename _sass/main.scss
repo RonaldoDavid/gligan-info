@@ -462,3 +462,32 @@ section {
     display: block;
   }
 }
+
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 30px 0 55px 0;
+}
+
+.grid a {
+  text-decoration: none !important;
+  border-bottom: 0;
+  padding-right: 0;
+  max-width: 37.5px;
+  max-height: 37.5px;
+}
+
+.grid .feather {
+  width: 30px !important;
+  height: 30px !important;
+  stroke-width: 1.5 !important;
+  cursor: pointer;
+  opacity: .9;
+  margin-right: 15px;
+  margin-top: 20px;
+  transition: .2s;
+} .grid .feather:hover {
+  stroke-width: 2 !important;
+  transform: scale(1.25);
+}
