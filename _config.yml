@@ -26,8 +26,8 @@ github_username:  RonaldoDavid
 
 # Build settings
 markdown: kramdown
-theme: minima
-# remote_theme: ankitsultana/researcher@gem
+# theme: minima
+remote_theme: ankitsultana/researcher@gem
 plugins:
   - jekyll-feed
 
