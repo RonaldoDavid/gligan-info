@@ -1,1 +1,0 @@
-# gligan.info, My website
