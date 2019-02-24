@@ -6,7 +6,23 @@ layout: default
 
 	<div class="center">
 		<h1 class="title">{{ page.title | capitalize }}</h1>
-		<time class="code">{{ page.date | date: '%B %-d, %Y' }} - <a href="/">Ronaldo David</a></time>
+		<time class="code">
+			<!-- {{ page.date | date: '%B %-d, %Y' }}<br> -->
+			{% assign day = page.date | date: "%-d"  %}
+{% case day %}
+  {% when '1' or '21' or '31' %}{{ day }}st
+  {% when '2' or '22' %}{{ day }}nd
+  {% when '3' or '23' %}{{ day }}rd
+  {% else %}{{ day }}th
+{% endcase %}
+{{ page.date | date: "of %B, %Y" }}<br>
+			{% assign words = content | number_of_words %}
+{% if words < 360 %}
+  1 min
+{% else %}
+  {{ words | divided_by:200 }} mins
+{% endif %} reading - <a href="/">Ronaldo David</a>
+		</time>
 	</div>
 
 	<div class="divider"></div>
