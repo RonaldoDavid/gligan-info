@@ -5,7 +5,7 @@ author_name:        "Ronaldo David"
 logo_url:           https://github.com/ronaldodavid.png
 
 # Site Settings
-url:                http://gligan.info
+url:                https://gligan.info
 # baseurl:            /the-plain
 permalink:          /:title # Post permalink
 timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
