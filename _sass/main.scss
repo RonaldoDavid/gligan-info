@@ -524,3 +524,30 @@ section {
   }
 
 }
+
+ol {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+ol li::before {
+  content: counter(my-awesome-counter);
+  color: #000;
+  font-size: .65rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 28px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  background: #eee;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: inset 0 0 3px #999;
+}
