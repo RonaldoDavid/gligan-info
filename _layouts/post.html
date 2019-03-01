@@ -1,85 +1,102 @@
 ---
 layout: default
 ---
+{% if page.pic %}
+	<img id="art-pic" src="{{ page.pic }}">
+	<style>.cont { margin: 35vh auto 0 auto; }</style>
+{% endif %}
 
-<article>
+<div class="cont">
+	<p class="code heads">
+		<small><a href="/">⟵ Home</a></small>
+		<small style="text-align: center;float: center;">
+			<time class="code" style="position: absolute;left: 50%;transform:translate(-50%, 0);">
+				<!-- {{ page.date | date: '%B %-d, %Y' }}<br> -->
+				{% assign day = page.date | date: "%-d"  %}
+				{% case day %}
+				  {% when '1' or '21' or '31' %}{{ day }}st
+				  {% when '2' or '22' %}{{ day }}nd
+				  {% when '3' or '23' %}{{ day }}rd
+				  {% else %}{{ day }}th
+				{% endcase %}
+				{{ page.date | date: "of %B, %Y" }}
+				-
+					{% assign words = content | number_of_words %}
+				{% if words < 360 %}
+				  1 min
+				{% else %}
+				  {{ words | divided_by:200 }} mins
+				{% endif %} reading
+			</time>
+		</small>
 
-	<div class="center">
-		<h1 class="title">{{ page.title | capitalize }}</h1>
-		<time class="code">
-			<!-- {{ page.date | date: '%B %-d, %Y' }}<br> -->
-			{% assign day = page.date | date: "%-d"  %}
-{% case day %}
-  {% when '1' or '21' or '31' %}{{ day }}st
-  {% when '2' or '22' %}{{ day }}nd
-  {% when '3' or '23' %}{{ day }}rd
-  {% else %}{{ day }}th
-{% endcase %}
-{{ page.date | date: "of %B, %Y" }}<br>
-			{% assign words = content | number_of_words %}
-{% if words < 360 %}
-  1 min
-{% else %}
-  {{ words | divided_by:200 }} mins
-{% endif %} reading - <a href="/">Ronaldo David</a>
-		</time>
-	</div>
+		{% if page.pic %}
+			<small style="text-align: right;float: right;"><a href="{{ page.pic }}" target="_blank">see full image</a></small>
+		{% endif %}
+	</p>
+	<article>
 
-	<div class="divider"></div>
-
-	{{ content }}
-	
-	<!-- <br><br>
-	<div class="author" style="position: relative;">
-		<img style="width: 60px;height: 60px;border-radius: 50%;display:" src="{{ site.logo_url }}" alt="Ronaldo David Profile's Photo">
-		<div class="info-author" style="position: absolute;top: 0;left: 70px;">
-			<p style="font-weight: bold;text-transform: uppercase;margin-top: 0;margin-bottom:0px;font-size: 22px">Ronaldo David G.</p>
-			<a href="/">gligan.info</a>
+		<div class="center">
+			<h1 class="title">{{ page.title | capitalize }}</h1>
+			<!-- <time class="code">
+				{% assign day = page.date | date: "%-d"  %}
+				{% case day %}
+				  {% when '1' or '21' or '31' %}{{ day }}st
+				  {% when '2' or '22' %}{{ day }}nd
+				  {% when '3' or '23' %}{{ day }}rd
+				  {% else %}{{ day }}th
+				{% endcase %}
+				{{ page.date | date: "of %B, %Y" }}<br>
+					{% assign words = content | number_of_words %}
+				{% if words < 360 %}
+				  1 min
+				{% else %}
+				  {{ words | divided_by:200 }} mins
+				{% endif %} reading - <a href="/">Ronaldo David</a>
+			</time> -->
 		</div>
-	</div> -->
 
-</article>
+		<div class="divider"></div>
 
-<style>
+		{{ content }}
+		
+		<!-- <br><br>
+		<div class="author" style="position: relative;">
+			<img style="width: 60px;height: 60px;border-radius: 50%;display:" src="{{ site.logo_url }}" alt="Ronaldo David Profile's Photo">
+			<div class="info-author" style="position: absolute;top: 0;left: 70px;">
+				<p style="font-weight: bold;text-transform: uppercase;margin-top: 0;margin-bottom:0px;font-size: 22px">Ronaldo David G.</p>
+				<a href="/">gligan.info</a>
+			</div>
+		</div> -->
 
-	.page-navigation {
-		display: flex;
-	}
-	
-	.w50 {
-		width: 50%;
-		/*background: coral;*/
-	}
-
-	.w50 .t {
-		font-weight: bold;
-		font-size: 20px !important;
-		display: block;
-	}
-
-</style>
-
-<div class="page-navigation code">
-	<div class="w50" style="text-align: left;padding-right: 10px;">
-		{% if page.next.url %}
-	    <a class="next" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}" title="NEXT: {{page.next.title}}">
-	    	<span>NEXT ARTICLE</span>
-				<span class="t">{{ page.next.title }}</span>
-			</a>
-  	{% endif %}
-  </div>
-  <div class="w50" style="text-align: right;padding-left: 10px;">
-	  {% if page.previous.url %}
-  		<a class="prev" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" title="PREV: {{page.previous.title}}">
-  			<span>PREVIOUS ARTICLE</span>
-				<span class="t">{{ page.previous.title }}</span>
-    	</a>
-	  {% endif %}
-	 </div>
+	</article>
 </div>
+
+<div class="bottom">
+
+<section>
+	<div class="page-navigation code">
+		<div class="w50" style="text-align: left;padding-right: 10px;">
+			{% if page.next.url %}
+		    <a class="next" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}" title="NEXT: {{page.next.title}}">
+		    	<span>NEXT ARTICLE</span>
+					<span class="t">{{ page.next.title }}</span>
+				</a>
+	  	{% endif %}
+	  </div>
+	  <div class="w50" style="text-align: right;padding-left: 10px;">
+		  {% if page.previous.url %}
+	  		<a class="prev" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" title="PREV: {{page.previous.title}}">
+	  			<span>PREVIOUS ARTICLE</span>
+					<span class="t">{{ page.previous.title }}</span>
+	    	</a>
+		  {% endif %}
+		 </div>
+	</div>
+</section>
+
 {% if page.comments %}
 	<section class="comments">
-		<!-- <p style="font-size: 20px;font-weight: bold;text-transform: uppercase;">Comments</p> -->
 		<div id="disqus_thread"></div>
 		<script>
 		var disqus_config = function () {
@@ -97,3 +114,5 @@ layout: default
 		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments</a>.</noscript>             
 	</section>
 {% endif %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+</div>

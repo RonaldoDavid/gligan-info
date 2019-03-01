@@ -4,6 +4,8 @@ title: 29 Easy Tricks To Increase The Visits In Your Website
 date: 2019-02-24 00:00:00 +0100
 permalink: /29-easy-tricks-to-increse-visits-in-your-website/
 comments: true
+pic: https://res.cloudinary.com/gligan/image/upload/c_thumb,w_1000,h_500,g_face/increse-visits.jpg # article image
+thumb: https://res.cloudinary.com/gligan/image/upload/w_100/increse-visits.jpg # thumbnail image
 ---
 
 In this *super article* you will learn certain tricks with which you will be able to increase the number of visits to your website writing better content.
@@ -136,18 +138,18 @@ Content is THE FUNDAMENTAL PART of the article, the article has no value without
 
 ### Article Structure
 
-```mermaid
+<div class="mermaid">
 graph LR
-A[Article]
-A --> C(<b>Title</b> <small>H1</small>)
-C --> E(Subtitle)
-C --> G(Subtitle)
-C --> ...
-E --> D{Content}
-G --> Z{Content}
-...(...) --> J{...}
-J --> Y((Conclusion))
-```
+	A[Article]
+	A --> C(<b>Title</b> <small>H1</small>)
+	C --> E(Subtitle)
+	C --> G(Subtitle)
+	C --> ...
+	E --> D{Content}
+	G --> Z{Content}
+	...(...) --> J{...}
+	J --> Y((Conclusion))
+</div>
 
 ### Legibility of the Article.
 
