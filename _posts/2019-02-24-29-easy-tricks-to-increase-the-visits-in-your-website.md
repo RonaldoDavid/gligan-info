@@ -40,7 +40,7 @@ Clickbait takes advantage of the innate curiosity of humans.
 
 Here you can see a clear example of clickbait:
 
-![Clickbait Example](https://cdn-images-1.medium.com/max/800/1*pSReWoqtXKWPJ3YJkLrOvw.jpeg)
+![Clickbait Example](https://res.cloudinary.com/gligan/image/upload/v1551460789/1_pSReWoqtXKWPJ3YJkLrOvw.jpg)
 
 In the clickbait there are normally **two common parts, the news and the event that happened after**.
 
@@ -74,11 +74,11 @@ All this data comes from a Moz study that you can read by clicking [here](https:
 
 Here you can see the conversion using numbers compared to other methods:
 
-![](http://mariusmarketing.com/wp-content/uploads/2016/01/titulares-llamativos-2.png)
+![](https://res.cloudinary.com/gligan/image/upload/v1551460862/titulares-llamativos-2.png)
 
 This study, apart from generally attracting anyone, can be observed that it attracts a little more women than men:
 
-![](http://mariusmarketing.com/wp-content/uploads/2016/01/titulares-llamativos-3.png)
+![](https://res.cloudinary.com/gligan/image/upload/v1551460894/titulares-llamativos-3.png)
 
 You can use this method in many ways but here is a simple guide:
 
@@ -240,7 +240,7 @@ Try making **longer articles** without writing nonsense and **writing enough**.
 
 Medium](https://medium.com) is a great *news portal*, they did a [research](https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b) and saw that the **most visited** and *loved* articles were those that lasted about **7 minutes**.
 
-![Medium Research About Article Reading Time](http://mariusmarketing.com/wp-content/uploads/2016/01/longitud-artiuclos-blog-1.png)
+![Medium Research About Article Reading Time](https://res.cloudinary.com/gligan/image/upload/v1551460940/longitud-artiuclos-blog-1.png)
 
 #### How many Minutes can my Articles be.
 
@@ -250,7 +250,7 @@ This can vary a lot, people don't like to spend an hour reading (unless your con
 
 A [SerpIQ study](blog.serpiq.com/how-important-is-content-length-why-data-driven-seo-trumps-guru-opinions/) determines that content over 2000 words tends to be much better positioned on Google.
 
-![SerpIQ Article Extension Benefits](http://mariusmarketing.com/wp-content/uploads/2015/08/ranking-contenido-extenso.png)
+![SerpIQ Article Extension Benefits](https://res.cloudinary.com/gligan/image/upload/v1551460959/ranking-contenido-extenso.png)
 
 #### Utility according to Number of Words.
 
@@ -260,7 +260,7 @@ If your content has more words *logically* it will be better positioned in Googl
 
 Using the ***long tail*** method is important if your blog is starting or if you want more visitors, here you can see a graph of how it works:
 
-![Long Tail SEO Chart Example](http://mariusmarketing.com/wp-content/uploads/2016/01/longitud-artiuclos-blog-4.jpg)
+![Long Tail SEO Chart Example](https://res.cloudinary.com/gligan/image/upload/v1551460979/longitud-artiuclos-blog-4.jpg)
 
 It's much easier to get out first in the search for *buy a microwave oven and grill* than if you're looking for *oven* ( *logically* 😀).
 
@@ -272,5 +272,4 @@ The extensive articles give a feeling of contributing more than one that has a f
 
 This is also related to the number of words and the sensation it gives us. Buzzsumo did an analysis with more than 100 million articles and found that the longer the article, the more likely it was to be shared on social networks.
 
-![](http://mariusmarketing.com/wp-content/uploads/2015/08/articulos-compartidos-redes-sociales.png)
-<!-- Abbreviations -->
+![](https://res.cloudinary.com/gligan/image/upload/v1551461028/articulos-compartidos-redes-sociales.png)
