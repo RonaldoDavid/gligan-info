@@ -503,12 +503,19 @@ section {
     margin: 5px 0;
     display: block;
   }
-  .heads > small {
-    // background: red;
+  .heads small {
+    margin-bottom: 5px;
     display: block;
     position: static !important;
     float: none !important;
-    text-align: left !important;
+    text-align: center !important;
+  }
+  .heads > time {
+    position: static !important;
+    text-align: left;
+  }
+  .sep-time-mins {
+    display: none;
   }
   .cont {
     position: relative;
@@ -628,4 +635,9 @@ section {
 @keyframes come {
   from { opacity: 0 }
   to { opacity: 1 }
+}
+
+.home {
+  display: block;
+  text-align: center;
 }

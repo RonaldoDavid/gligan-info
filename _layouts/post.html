@@ -9,9 +9,9 @@ layout: default
 <div class="cont">
 	<p class="code heads">
 		<small><a href="/">⟵ Home</a></small>
-		<small style="text-align: center;float: center;">
-			<time class="code" style="position: absolute;left: 50%;transform:translate(-50%, 0);">
-				<!-- {{ page.date | date: '%B %-d, %Y' }}<br> -->
+		<time class="code" style="position: absolute;left: 50%;transform:translate(-50%, 0);">
+			<!-- {{ page.date | date: '%B %-d, %Y' }}<br> -->
+			<small>
 				{% assign day = page.date | date: "%-d"  %}
 				{% case day %}
 				  {% when '1' or '21' or '31' %}{{ day }}st
@@ -20,15 +20,17 @@ layout: default
 				  {% else %}{{ day }}th
 				{% endcase %}
 				{{ page.date | date: "of %B, %Y" }}
-				-
-					{% assign words = content | number_of_words %}
+			</small>
+			<span class="sep-time-mins">-</span>
+			<small>
+				{% assign words = content | number_of_words %}
 				{% if words < 360 %}
 				  1 min
 				{% else %}
 				  {{ words | divided_by:200 }} mins
 				{% endif %} reading
-			</time>
-		</small>
+			</small>
+		</time>
 
 		{% if page.pic %}
 			<small style="text-align: right;float: right;"><a href="{{ page.pic }}" target="_blank">see full image</a></small>
@@ -114,5 +116,5 @@ layout: default
 		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments</a>.</noscript>             
 	</section>
 {% endif %}
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
 </div>
