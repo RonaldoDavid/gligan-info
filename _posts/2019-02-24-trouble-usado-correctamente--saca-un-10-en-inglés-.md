@@ -32,7 +32,7 @@ Incluso este ejemplo te pude ayudar:
 
 ### Plantillas para usar Trouble en tu vida cotidiana.
 
-En estas sencillas plantillas simplemente tienes que cambiar lo que está entre corchetes ( *[]* ) y serás el más *anglosajón* de tu familia.
+En estas plantillas simplemente tienes que cambiar lo que está entre corchetes ( *[]* ) y serás el más *anglosajón* de tu familia.
 
 1. **[*nombre/pronombre*] is a [*insulto* (si deseas)] troublemaker** significa
 2. **To have trouble with [*nombre/pronombre*]** significa *Tener en problemas con...*
