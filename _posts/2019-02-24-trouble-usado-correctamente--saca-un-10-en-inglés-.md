@@ -37,7 +37,7 @@ En estas sencillas plantillas simplemente tienes que cambiar lo que está entre 
 2. **To have trouble with [*nombre/pronombre*]** significa *Tener en problemas con...*
 3. **[*nombre/pronombre*] is in a lot of trouble** significa *[alguien] está metido en muchos problemas*.
 4. **[*nombre/pronombre*] is [making/causing] trouble** significa *[alguien] está creando/causando problemas*.
-5. **[*nombre/pronombre*] has trouble [*haciendo algo* o *con algo*] ** significa **
+5. **[*nombre/pronombre*] has trouble [*haciendo algo* o *con algo*] ** significa *[alguien] tiene dificultad/problemas con [algo]*
 <!-- 6. **[**] ** significa **-->
 
 ### Expresiones útiles.
