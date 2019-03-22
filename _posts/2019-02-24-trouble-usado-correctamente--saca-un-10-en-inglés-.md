@@ -21,8 +21,9 @@ El mundo está lleno de *troubles* pero un problema menos que tendrás después 
 Un sencillo ejemplo en el que podemos ver a *trouble* es:
 > **He's looking trouble.** (Está buscando problemas)
 
-Esto es una *frase hecha* pero en un ejemplo real podríamos poner a la siguiente frase:
-> **You've taken the trouble to learn to use the word " trouble.** (Te has tomado la molestia de aprender ha usar la palabra "problema").
+<!-- Esto es una *frase hecha* pero en un ejemplo real podríamos poner a la siguiente frase:-->
+En otro ejemplo podríamos poner a la siguiente frase:
+> **You've taken the trouble to learn to use the word "trouble".** (Te has tomado la molestia de aprender ha usar la palabra "problema").
 
 Incluso este ejemplo te pude ayudar:
 > **I have trouble concentrating.** (Tengo problemas para concentrarme).
