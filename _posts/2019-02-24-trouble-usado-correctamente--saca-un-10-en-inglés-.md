@@ -35,7 +35,7 @@ Incluso este ejemplo te pude ayudar:
 En estas plantillas simplemente tienes que cambiar lo que está entre corchetes ( *[]* ) y serás el más *anglosajón* de tu familia.
 
 1. **[*nombre/pronombre*] is a [*insulto* (si deseas)] troublemaker** significa *[alguien] es un líoso/problemático*.
-2. **[*nombre/pronombre*] have trouble with [*nombre/pronombre*]** significa *Tener en problemas con...*
+2. **[*nombre/pronombre*] have (conjúgalo) trouble with [*nombre/pronombre*]** significa *Tener en problemas con...*
 3. **[*nombre/pronombre*] is in a lot of trouble** significa *[alguien] está metido en muchos problemas*.
 4. **[*nombre/pronombre*] is [making/causing] trouble** significa *[alguien] está creando/causando problemas*.
 5. **[*nombre/pronombre*] has trouble [*haciendo algo* o *con algo*] ** significa *[alguien] tiene dificultad/problemas con [algo]*
