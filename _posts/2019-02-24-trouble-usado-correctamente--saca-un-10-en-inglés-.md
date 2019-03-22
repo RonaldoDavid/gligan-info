@@ -38,8 +38,7 @@ En estas plantillas simplemente tienes que cambiar lo que está entre corchetes 
 2. **[*nombre/pronombre*] have (conjúgalo) trouble with [*nombre/pronombre*]** significa *[alguien] tiene problemas con...*
 3. **[*nombre/pronombre*] is in a lot of trouble** significa *[alguien] está metido en muchos problemas*.
 4. **[*nombre/pronombre*] is [making/causing] trouble** significa *[alguien] está creando/causando problemas*.
-5. **[*nombre/pronombre*] has trouble [*haciendo algo* o *con algo*] ** significa *[alguien] tiene dificultad/problemas con [algo]*
-<!-- 6. **[**] ** significa **-->
+5. **[*nombre/pronombre*] has trouble [*haciendo algo* o *con algo*]** significa *[alguien] tiene dificultad/problemas con [algo]*
 
 ### Expresiones útiles.
 
