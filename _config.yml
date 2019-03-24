@@ -10,6 +10,7 @@ url:                https://gligan.info
 permalink:          /:title # Post permalink
 timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            false
+toc:                true
 
 # Site Build
 highlighter:        rouge
