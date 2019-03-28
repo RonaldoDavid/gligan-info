@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
 	spec.name          = "the-plain"
 	spec.version       = "4.0.0"
-	spec.authors       = ["Heiswayi Nrird"]
-	spec.email         = ["heiswayi@nrird.xyz"]
+	spec.authors       = ["Ronaldo David Gomes Gligan"]
+# 	spec.email         = ["---"]
 
-	spec.summary       = "A minimalist Jekyll theme"
-	spec.homepage      = "https://github.com/heiswayi/the-plain"
+	spec.summary       = "My webpage theme"
+# 	spec.homepage      = "-"
 	spec.license       = "MIT"
 
 	spec.metadata["plugin_type"] = "theme"
