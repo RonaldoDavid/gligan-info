@@ -5,7 +5,7 @@ date: 2019-02-24 00:00:00 +0100
 permalink: /29-easy-tricks-to-increse-visits-in-your-website/
 comments: true
 pic: https://res.cloudinary.com/gligan/image/upload/c_thumb,w_1000,h_500,g_face/increse-visits.jpg # article image
-thumb: https://res.cloudinary.com/gligan/image/upload/w_100/increse-visits.jpg # thumbnail image
+thumb: https://res.cloudinary.com/gligan/image/upload/w_300/increse-visits.jpg
 ---
 
 In this *super article* you will learn certain tricks with which you will be able to increase the number of visits to your website writing better content.
@@ -94,7 +94,7 @@ You can use this method in many ways but here is a simple guide:
 
 Your titles have to stand out in their simplicity, try to express the key concept of the article in the smallest (and best) number of words.
 
-Google usually displays titles without dots (*…*) when they are less than 60 characters \*\*\*. Try not to go over the limit.
+Google usually displays titles without dots (*…*) when they are less than 60 characters. Try not to go over the limit.
 
 There are different ways to write a title but these are the most common:
 
