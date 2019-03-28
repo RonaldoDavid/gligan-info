@@ -188,6 +188,15 @@ ol {
     margin: 40px 0;
     border-radius: 5px;
   }
+  &::before {
+    content: '\2014';
+    color: #a0a0a0;
+    position: absolute;
+    left: 0;::after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
 }
 
 ol {
