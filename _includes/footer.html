@@ -15,11 +15,11 @@
     animations: {
       '*': {
         out: function (next) {
-          // document.getElementById("swap").classList.remove('anim');
+          document.getElementById("swap").classList.remove('anim');
           next()
         },
         in: function (next) {
-          // document.getElementById("swap").classList.add('anim');
+          document.getElementById("swap").classList.add('anim');
           next()
         }
       }
