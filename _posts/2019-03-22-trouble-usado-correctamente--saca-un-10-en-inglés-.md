@@ -61,3 +61,7 @@ Existen muchos casos en los que deberías remplazar esta palabra por *trouble*, 
 
 También *trouble* es preferible para referirnos a los *problemas* (valga la redundancia) que nos rodean diariamente.
 
+___
+
+Recuerda estos sencillos trucos y *sonarás* más nativo, también si tienes alguna duda no tengas verguenza en comentarlo, ya que así tú y otras personas nos podemos beneficiar.
+
