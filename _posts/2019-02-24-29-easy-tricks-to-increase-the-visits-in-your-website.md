@@ -238,7 +238,7 @@ Try making **longer articles** without writing nonsense and **writing enough**.
 
 #### Common Average of Words per Article.
 
-Medium](https://medium.com) is a great *news portal*, they did a [research](https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b) and saw that the **most visited** and *loved* articles were those that lasted about **7 minutes**.
+[Medium](https://medium.com) is a great *news/sotories portal*, they did a [research](https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b) and saw that the **most visited** and *loved* articles were those that lasted about **7 minutes**.
 
 ![Medium Research About Article Reading Time](https://res.cloudinary.com/gligan/image/upload/v1551460940/longitud-artiuclos-blog-1.png)
 

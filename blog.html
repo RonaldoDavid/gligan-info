@@ -1,32 +1,83 @@
 ---
-layout: page
-title: Blog - Ronaldo David G.
+layout: default
 ---
 
 <section style="padding:0 20px">
 	
-	{% for post in site.posts %}
-		{% unless post.next %}
-			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
-		{% else %}
-			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-			{% if year != nyear %}
-				<h3 class="code">{{ post.date | date: '%Y' }}</h3>
-			{% endif %}
-		{% endunless %}
+	<br>
+	<small class="code"><a href="/">⟵ Home</a></small>
+	<h1>Blog.</h1>
 
-		<ul>
-			<li>
-				<div class="post-date code">
-					<span>{{ post.date | date: "%b %d" }}</span>
-				</div>
-				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-				</div>
-			</li>
-		</ul>
+	<p>Here, in mi blog you'll find swell things to read, I advise you to be preparated to learn 😀</p>
 
-	{% endfor %}
+	<style>.lazy{min-height:150px;background:#eee}.hidden{display:none}</style>
+	<div class="posts">
+		{% for post in site.posts %}
+			<div class="post hidden">
+				{% if post.thumb %}
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+						<img class="lazy" data-src="{{ post.thumb }}">
+					</a>
+				{% endif %}
+				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+					<p class="tit-post">{{ post.title }}</p>
+				</a>
+				<span>{{ post.date | date: "%d %b, %Y" }}</span>
+			</div>
+		{% endfor %}
+	</div>
+	
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var lazyloadImages;
+
+			if ("IntersectionObserver" in window) {
+				lazyloadImages = document.querySelectorAll(".lazy");
+				var imageObserver = new IntersectionObserver(function(entries, observer) {
+					entries.forEach(function(entry) {
+						if (entry.isIntersecting) {
+							var image = entry.target;
+							image.src = image.dataset.src;
+							image.classList.remove("lazy");
+							imageObserver.unobserve(image);
+						}
+					});
+				});
+
+				lazyloadImages.forEach(function(image) {
+					imageObserver.observe(image);
+					image.parentNode.parentNode.classList.remove('hidden');
+				});
+			} else {  
+				var lazyloadThrottleTimeout;
+				lazyloadImages = document.querySelectorAll(".lazy");
+				
+				function lazyload () {
+					if(lazyloadThrottleTimeout) {
+						clearTimeout(lazyloadThrottleTimeout);
+					}
+
+					lazyloadThrottleTimeout = setTimeout(function() {
+						var scrollTop = window.pageYOffset;
+						lazyloadImages.forEach(function(img) {
+							if(img.offsetTop < (window.innerHeight + scrollTop)) {
+								img.src = img.dataset.src;
+								img.classList.remove('lazy');
+							}
+						});
+						if(lazyloadImages.length == 0) { 
+							document.removeEventListener("scroll", lazyload);
+							window.removeEventListener("resize", lazyload);
+							window.removeEventListener("orientationChange", lazyload);
+						}
+					}, 20);
+				}
+
+				document.addEventListener("scroll", lazyload);
+				window.addEventListener("resize", lazyload);
+				window.addEventListener("orientationChange", lazyload);
+			}
+		})
+	</script>
 
 </section>
