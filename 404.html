@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<section style="padding:0 20px">
+
+	<img src="https://res.cloudinary.com/gligan/image/upload/v1554654211/giphy.webp" alt="Ghost Error 404 GIF" style="display: block;width: 50%;margin: 0 auto;">
+
+	<h1>Error 404.</h1>
+
+	<a href="/" class="more_a" style="margin: 30px 0 50px 0">
+		<button class="more">Go Home</button>
+	</a>
+
+	<p>
+		Oh, snap! Looks like this page doesn't exist.If you want I leave you here my articles:
+	</p>
+
+	<div class="posts">
+		{% for post in site.posts %}
+			<div class="post">
+				{% if post.thumb %}
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+						<img src="{{ post.thumb }}" alt="{{ post.title }}">
+					</a>
+				{% endif %}
+				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+					<p class="tit-post">{{ post.title }}</p>
+				</a>
+				<span>{{ post.date | date: "%d %b, %Y" }}</span>
+			</div>
+		{% endfor %}
+	</div>
+
+</section>
