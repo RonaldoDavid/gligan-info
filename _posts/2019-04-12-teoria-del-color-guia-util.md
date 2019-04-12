@@ -8,8 +8,6 @@ pic: https://res.cloudinary.com/gligan/image/upload/v1555095047/colores.png
 thumb: https://res.cloudinary.com/gligan/image/upload/w_300/v1555095047/colores.png
 ---
 
-# ✓ Teoría del Color. La Última Guía  【2019】
-
 En este artículo aprenderás **qué es el color**, **cómo y cuándo usar que colores** y en sí, aprenderás la **teoría del color**.
 
 Si no tienes nada que hacer, siéntate y ponte cómodo porque vas ha aprender algo **muy importante**.
