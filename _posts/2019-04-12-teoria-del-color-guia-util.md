@@ -4,8 +4,8 @@ title: '✓ Teoría del Color. La Última Guía  【{{ "now" | date: "%Y" }}】'
 date: 2019-04-12 00:00:00 +0100
 permalink: teoria-del-color-guia-util
 comments: true
-pic: 
-thumb: 
+pic: https://res.cloudinary.com/gligan/image/upload/v1555095047/colores.png
+thumb: https://res.cloudinary.com/gligan/image/upload/w_300/v1555095047/colores.png
 ---
 
 # ✓ Teoría del Color. La Última Guía  【2019】
