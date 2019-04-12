@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '✓ Teoría del Color. La Última Guía  【{{ "now" | date: "%Y" }}】'
+title: '✓ Teoría del Color. La Última Guía  【2019】'
 date: 2019-04-12 00:00:00 +0100
 permalink: teoria-del-color-guia-util
 comments: true
