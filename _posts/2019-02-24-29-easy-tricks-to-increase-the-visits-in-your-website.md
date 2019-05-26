@@ -25,7 +25,7 @@ A normal problem when you are creating an article are the titles, you have to th
 Titles usually serve to attract people to your content but search engines (Google, Bing, DuckDuckGo, Yahoo, etc.) use them as one of the factors to rank your content in their large databases.
 
 Your titles will appear in three main places:
-
+to 
 1. Search engine result pages
 2. Browser Tabs
 3. Social Networks
@@ -102,7 +102,7 @@ There are different ways to write a title but these are the most common:
 * **With Numbers** *25 Ways to Create Eye-catching Headlines*
 * **Speaking to the reader** *Ways to Make Your Headlines Eye-catching*
 * **Question** *What Ways Are There to Create Eye-catching Headlines?*
-* **Indirect question with 'How'** *How to Create Eye-catching Headlines*
+* **Indirect question with 'How'** *How could I Create Eye-catching Headlines?*
 
 Normally, the one that can be most useful to you is the method that uses numbers (2nd).
 
