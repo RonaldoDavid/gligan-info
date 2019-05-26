@@ -129,8 +129,11 @@ Several studies agree that to put the first letter of each word in capital lette
 1. [☑] 25 Things You Shouldn't Do in Spain.
 2. [☒] 25 THINGS YOU SHOULDN'T DO IN SPAIN.
 3. [☒] 25 things you shouldn't do in spain.
+4. [~] 25 Things You SHOULDN'T Do in Spain.
 
 The first method is best for most cases.The second method can also be applied to certain places, such as YouTube.The third method does not attract much, I advise you not to use it for titles.
+
+You can play with upper and lower case letters in a way that gives importance to keywords or even negations. In some cases it will be useful to you.
 
 ## Content of the Article.
 
