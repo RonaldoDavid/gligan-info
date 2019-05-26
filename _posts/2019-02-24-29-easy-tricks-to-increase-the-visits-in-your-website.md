@@ -160,9 +160,11 @@ To be able to easily understand an article is vital, here enters the typography,
 
 #### Typographies suitable for your web.<!-- Intenta usar para el texto tipografías de *Palo Seco*, intenta NO usar *Rotuladas*, *Decorativas* y/o *Romanas* (estas pueden ser buenas para títulos).-->
 
-A great repository of fonts is [Google Fonts](https://fonts.google.com). Although there are others, this is the best free.
+A great repository of fonts is [Google Fonts](https://fonts.google.com). Although there are others (like Adobe Fonts, o you can find some cool fonts in Behance), but I think Google Fonts is the best free repository.
 
 I recommend typographies such as *[Open Sans](https://fonts.google.com/specimen/Open+Sans)*, *[Lato](https://fonts.google.com/specimen/Lato)*, *[Roboto](https://fonts.google.com/specimen/Roboto)* or any typography of type **[Sans Serif](https://fonts.google.com/?category=Sans+Serif)**.
+
+Here you have a very good Google Fonts font combiner. [Go to the font combiner](https://codepen.io/linux_rdgg/full/EzXmxr).
 
 For the titles you can use the same typography as the text but if you want you can see the [Serif](https://fonts.google.com/?category=Serif) typographies.
 
