@@ -175,7 +175,7 @@ Normally the text should have a **size between 17px to 25px** and try to make th
 Try to differentiate in size and thickness the titles (and a little opacity), for example:
 
 * *Title* bold and no opacity.
-* *Text* thickness 400 and some opacity.
+* *Text* thickness 400 and <span style="opacity:.6">some opacity</span>.
 
 #### Line spacing.
 
