@@ -14,7 +14,7 @@ Si sabes como se usa VIM te resultará muy fácil, ya que está basado en este. 
 
 ## Instalación de MOC.
 
-Para instalar MOC es muy sencillo simplemente escribe:
+Para instalar MOC es muy sencillo, simplemente escribe:
 ```bash
 sudo apt install moc
 ```
@@ -39,14 +39,14 @@ Si no sabes como usar MOC aquí tienes una *chuleta*:
 
 ## Cómo Personalizo MOC con los Temas.
 
-Tienes (en la teminal) que dirigirte a la carpeta de MOC (`cd ~/.moc/`) y si no existe crear un archivo llamador ***config*** (`nano config` o `touch config` y editarlo con tu editor preferido).
+Tienes (en la teminal) que dirigirte a la carpeta de MOC (`cd ~/.moc/`) y si no existe crear un archivo llamado ***config*** (`nano config` o `touch config` y editarlo con tu editor preferido).
 
 Cuando estés allí simplemente tendrás que escribir lo siguiente:
 ```bash
 Theme = NOMBRE_DEL_TEMA
 XTermTheme = NOMBRE_DEL_TEMA
 ```
-Tendrás que cambiar `NOMBRE_DEL_TEMA` por el tema que te plazca, para eso dirígete a MOC con `mocp` y presionar `T` (en mayúsculas), saldrá un menú y elige el tema que te guste y ese mismo nombre lo tendrás que ponder en vez  de `NOMBRE_DEL_TEMA`.
+Tendrás que cambiar `NOMBRE_DEL_TEMA` por el tema que te plazca, para eso dirígete a MOC con `mocp` y presiona `T` (en mayúsculas), saldrá un menú y elige el tema que te guste y ese mismo nombre lo tendrás que ponder en vez  de `NOMBRE_DEL_TEMA`.
 
 Así de trivial es cambiar un tema de MOC.
 
