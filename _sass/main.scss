@@ -302,18 +302,7 @@ iframe {
   width: 100%;
 }
 
-#art-pic {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: -100;
-  width: 1000px;
-  // border-bottom-left-radius: 5px;
-  // border-bottom-right-radius: 5px;
-}
-
-.cont, .bottom {
+.cont, .bottom, #art-pic {
   max-width: 1000px;
   background: #fff;
   margin: 0 auto 0 auto;
@@ -321,6 +310,14 @@ iframe {
   // box-shadow: 0 0 10px rgba(0, 0, 0, .08);
   // border-radius: 5px;
 }
+
+#art-pic {
+  z-index: -100;
+  width: 1000px;
+  padding: 0;
+  display: block;
+}
+
 
 .bottom, .footer {
   margin-top: 0;
