@@ -40,6 +40,8 @@ Si no sabes como usar MOC aquí tienes una *chuleta*:
 Aquí te dejo un vídeo para que puedas ver cómo funciona MOC:
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m8pvj4QQU9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Si tienes alguna otra duda puedes presionar la tecla `h` dentro de MOC para ver todos los comandos disponibles.
+
 ## Cómo Personalizo MOC con los Temas.
 
 Tienes (en la teminal) que dirigirte a la carpeta de MOC (`cd ~/.moc/`) y si no existe crear un archivo llamado ***config*** (`nano config` o `touch config` y editarlo con tu editor preferido).
