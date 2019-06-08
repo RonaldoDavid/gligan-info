@@ -7,22 +7,6 @@ layout: default
 	<style>.cont { margin: 35vh auto 0 auto; }</style>
 {% endif %}
 
-<!-- <style>
-	.m {
-		position: fixed;
-		top: 0;
-		left: 50%;
-		transform: translate(-50%, 0);
-		width: 1000px;
-		height: 30px;
-		background: rgba(0, 0, 0, .5);
-	}
-</style>
-
-<div class="m">
-	
-</div> -->
-
 <div class="cont">
 	<p class="code heads">
 		<small><a href="/">⟵ Home</a></small>
@@ -38,7 +22,7 @@ layout: default
 				{% endcase %}
 				{{ page.date | date: "of %B, %Y" }}
 			</small>
-			<span class="sep-time-mins">-</span>
+			<span class="sep-time-mins">—</span>
 			<small>
 				{% assign words = content | number_of_words %}
 				{% if words < 360 %}
