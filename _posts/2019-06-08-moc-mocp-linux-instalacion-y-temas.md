@@ -12,6 +12,8 @@ thumb: https://res.cloudinary.com/gligan/image/upload/w_300/moc-mocp-linux-insta
 
 Si sabes como se usa VIM te resultará muy fácil, ya que está basado en este. Ah! Y por cierto MOC significa *Music On Console*.
 
+![MOC player in Elementary Terminal](https://res.cloudinary.com/gligan/image/upload/v1560032749/Screenshot_from_2019-06-08_22-35-38.png)
+
 ## Instalación de MOC.
 
 Para instalar MOC es muy sencillo, simplemente escribe:
