@@ -23,7 +23,7 @@ Y después para ejecutarlo, escribe `mocp`. Y ya está.
 
 Si no sabes como usar MOC aquí tienes una *chuleta*:
 
-Tecla| Significado |
+|Tecla| Significado |
 |-:|:-|
 |**`Espacio`** | pausar/reanudar la reproducción |
 |**`s`**	|(*stop*) parar la reproducción|
