@@ -17,14 +17,14 @@ Si sabes como se usa VIM te resultará muy fácil, ya que está basado en este. 
 
 ## Instalación de MOC.
 
-Para instalar MOC es muy sencillo, simplemente escribe:
+Para instalar MOC tienes que escribir en la terminal este sencillo comando:
 ```bash
 sudo apt install moc
 ```
-Con *pacman* sería:
+Si usas Arch o alguna distro que esté basada en esta usa este comando:
 ```bash
 pacman -S moc
-``` 
+```
 
 Y después para ejecutarlo, escribe `mocp`. Y ya está.
 
