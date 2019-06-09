@@ -21,6 +21,10 @@ Para instalar MOC es muy sencillo, simplemente escribe:
 ```bash
 sudo apt install moc
 ```
+Con *pacman* sería:
+```bash
+pacman -S moc
+``` 
 
 Y después para ejecutarlo, escribe `mocp`. Y ya está.
 
