@@ -3,8 +3,7 @@ layout: default
 ---
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 {% if page.pic %}
-	<div class="d-img">
-		<img id="art-pic" src="{{ page.pic }}" alt="{{ page.title }}">
+	<div class="d-img" style="background-image: url({{ page.pic }})">
 		<!-- añadir (en efecto espejo) el título del artúculo -->
 	</div>
 {% endif %}

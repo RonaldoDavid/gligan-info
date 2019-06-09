@@ -302,7 +302,7 @@ iframe {
   width: 100%;
 }
 
-.cont, .bottom, #art-pic {
+.cont, .bottom, .d-img {
   max-width: 1000px;
   background: #fff;
   margin: 0 auto 0 auto;
@@ -311,10 +311,17 @@ iframe {
   // border-radius: 5px;
 }
 
-#art-pic {
+.cont {
+}
+
+.d-img {
   z-index: -100;
   width: 1000px;
   padding: 0;
+  height: 50vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: block;
 }
 
