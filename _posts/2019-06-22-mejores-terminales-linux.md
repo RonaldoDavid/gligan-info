@@ -94,9 +94,9 @@ Aquí tienes **todos los atajos de teclado** de Terminator:
 
 Es **sencilla**, seguro que la has probado si has usado Ubuntu. Principalemente te gustará por los siguientes beneficios:
 
-- Sencilla y punto.
-- Tiene un sistema de pestañas.
-- Posee diferentes temas por defecto y puedes crear los tuyos propios en *Edit ▸ Preferences*.
+1. Sencilla y punto.
+2. Tiene un sistema de pestañas.
+3. Posee diferentes temas por defecto y puedes crear los tuyos propios en *Edit ▸ Preferences*.
 
 ![Captura de pantalla de la Terminal GNOME Terminal](https://res.cloudinary.com/gligan/image/upload/v1561219193/Screenshot_from_2019-06-22_17-30-25.png)
 Si no tienes instalado GNOME Terminal por defecto tendrás que escribir en tu terminal el siguiente comando:
@@ -128,9 +128,9 @@ Es mi terminal favorita, **bonita y funcional**, encima al usarla con Elementary
 ![Captura de pantalla de la Terminal Pantheon Terminal](https://res.cloudinary.com/gligan/image/upload/v1561219197/Screenshot_from_2019-06-22_17-51-25.png)
 Las mejores cosas que la hacen **mi favorita** son:
 
-- Es muy bonita y sencilla, con tres temas, cambiar el tamaño de fuente.
-- Puedes buscar con el buscador de texto que tiene incuida y también tiene un sistema de pestañas.
-- Funciona de maravilla y es rápida.
+1. Es muy bonita y sencilla, con tres temas, cambiar el tamaño de fuente.
+2. Puedes buscar con el buscador de texto que tiene incuida y también tiene un sistema de pestañas.
+3. Funciona de maravilla y es rápida.
 
 ___
 Se puede instalar en otros sistemas Linux con los siguientes comandos:
