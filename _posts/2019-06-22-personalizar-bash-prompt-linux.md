@@ -8,7 +8,7 @@ pic: https://res.cloudinary.com/gligan/image/upload/photo-1545465270-b28c72a628f
 thumb: https://res.cloudinary.com/gligan/image/upload/w_300/photo-1545465270-b28c72a628f9.jpg
 ---
 
-<img style="display:block" ![Customized Linux Prompt" "https://res.cloudinary.com/gligan/image/upload/v1561211648/Screenshot_from_2019-06-22_15-53-07.png"/>
+<img style="display:block" alt="Customized Linux Prompt" src="https://res.cloudinary.com/gligan/image/upload/v1561211648/Screenshot_from_2019-06-22_15-53-07.png">
 
 Si te aburre el típico *prompt* de Linux, no pasa nada, en este artículo verás como modificarlo para que se adapte a tí.
 
