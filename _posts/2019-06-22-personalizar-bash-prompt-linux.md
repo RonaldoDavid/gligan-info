@@ -8,7 +8,8 @@ pic: https://res.cloudinary.com/gligan/image/upload/photo-1545465270-b28c72a628f
 thumb: https://res.cloudinary.com/gligan/image/upload/w_300/photo-1545465270-b28c72a628f9.jpg
 ---
 
-<img style="display:block" alt="Customized Linux Prompt" src="https://res.cloudinary.com/gligan/image/upload/v1561211648/Screenshot_from_2019-06-22_15-53-07.png">
+<!-- <img style="display:block" alt="Customized Linux Prompt" src="https://res.cloudinary.com/gligan/image/upload/v1561211648/Screenshot_from_2019-06-22_15-53-07.png">-->
+![Customizing BASH prompt](https://res.cloudinary.com/gligan/image/upload/v1561213138/Screenshot_from_2019-06-22_16-18-30.png)
 
 Si te aburre el típico *prompt* de Linux, no pasa nada, en este artículo verás como modificarlo para que se adapte a tí.
 
@@ -56,7 +57,6 @@ function parse_git_branch() {
     fi
 }
 
-# get current status of git repo
 function parse_git_dirty {
     status=`git status 2>&1 | tee`
     dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
