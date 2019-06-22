@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【TUTORIAL】Personalizando de ⓪ a ①⓪⓪ el BASH Prompt en Linux®
+title: 【TUTORIAL】Personalizando de ⓪ a ❶⓿⓿ el BASH Prompt en Linux®
 date: 2019-06-22 00:00:00 +0100
 permalink: /personalizar-bash-prompt-linux/
 comments: true
