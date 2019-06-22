@@ -3,9 +3,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 {% if page.title %}
-	<title>{{ page.title }} · {{ site.title }}</title>
+	<title>{{ page.title }}</title>
 {% else %}
-	<title>{{ site.title }}</title>
+	<title>{{ site.title }} Portfilio</title>
 {% endif %}
 
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
