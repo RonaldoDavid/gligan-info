@@ -24,7 +24,7 @@ También puedes usar `printenv` y tendrás que buscarla. Deberías ver algo pare
 
 ![BASH Command: echo $PS1](https://res.cloudinary.com/gligan/image/upload/v1561212520/Screenshot_from_2019-06-22_16-07-56.png)
 
-Para hacer esto tendremos que ir al archivo `~/.bashrc`  y tendremos que ir al final del archivo y allí tendremos que que escribir lo siguiente:
+Para hacer esto tendremos que ir al **archivo `~/.bashrc`**  y tendremos que ir al final del archivo y allí tendremos que que escribir lo siguiente:
 ```bash
 export PS1 = "<...>"
 ```
@@ -36,9 +36,9 @@ Dentro de `<...>` tendrás que poner... lo que te apetezca, aquí tienes unas ch
 - `\w` mostrará el nombre del directorio actual.
 - `\` con esto podrás escribir cualquier otro caracter, por ejemplo: `\$` mostrará un simbolo de dólar (`$`).
 
-Incluso puedes añadir emojis ---como ❖, ღ, ✨, ❃, ✙, ⚡, etc.--- aunque yo pienso que no tiene ningún valor pero cada uno tiene sus gustos.
+Incluso puedes añadir **emojis** ---como ❖, ღ, ✨, ❃, ✙, ⚡, etc.--- aunque yo pienso que no tiene ningún valor pero cada uno tiene sus gustos.
 
-Te aconsejo que mires [esta página](http://ezprompt.net/) o [este otro](http://bashrcgenerator.com/), son unos generadores muy intuitivos con los que podrás tener facilmente un BASH prompt personalizado.
+Te aconsejo que mires **[esta página](http://ezprompt.net/)** o **[este otro](http://bashrcgenerator.com/)**, son unos **generadores muy intuitivos** con los que podrás tener facilmente un BASH prompt personalizado.
 
 ![Customized BASH prompt](https://res.cloudinary.com/gligan/image/upload/v1561213138/Screenshot_from_2019-06-22_16-18-30.png)
 
