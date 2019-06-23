@@ -15,12 +15,12 @@ Si te aburre el típico *prompt* de Linux, no pasa nada, en este artículo verá
 
 ## ¿Cómo 📐 personalizo 📐 mi Linux Prompt?
 
-Antes de cambiarlo tienes que saber que el *prompt^1^* tendrás que saber que este, está guardado en una variable que puedes ver escribiendo:
+Antes de cambiarlo tienes que saber que el *prompt* está guardado en una variable que puedes ver escribiendo:
 
 ```bash
 echo $PS1
 ```
-Y deberías ver algo parecido a esto ---si no lo has tocado antes---
+También puedes usar `printenv` y tendrás que buscarla. Deberías ver algo parecido a esto ↓ ---si no lo has tocado antes---
 
 ![BASH Command: echo $PS1](https://res.cloudinary.com/gligan/image/upload/v1561212520/Screenshot_from_2019-06-22_16-07-56.png)
 
