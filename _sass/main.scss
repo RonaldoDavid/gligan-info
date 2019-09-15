@@ -201,7 +201,14 @@ button.articlesbtn {
   margin-top: 20px;
 }
 
+.time.code {
+  display: none;
+}
+
 @media screen and (max-width: 680px) {
+   time.code { display: none; }
+  .time.code { display: block; }
+
   .articles {
     & > div { min-height: 100px }
     .title {
@@ -237,8 +244,8 @@ button.articlesbtn {
 
 }
 
-LazyLoad {
-  animation: fadeIn .2s;
+img, .cover, .article-cover {
+  animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
@@ -293,4 +300,8 @@ center {
     opacity: .5;
     font-size: 12px;
   }
+}
+
+pre {
+  overflow: auto;
 }
