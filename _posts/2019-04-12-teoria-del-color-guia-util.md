@@ -5,7 +5,7 @@ date: 2019-04-12 00:00:00 +0100
 permalink: teoria-del-color-guia-util
 comments: true
 pic: https://res.cloudinary.com/gligan/image/upload/v1555095047/colores.png
-thumb: https://res.cloudinary.com/gligan/image/upload/w_300/v1555095047/colores.png
+thumb: https://res.cloudinary.com/gligan/image/upload/w_500/v1555095047/colores.png
 ---
 
 En este artículo aprenderás **qué es el color**, **cómo y cuándo usar que colores** y en sí, aprenderás la **teoría del color**.

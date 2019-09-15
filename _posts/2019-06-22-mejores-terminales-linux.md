@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Las ❺ Terminales para Linux que te Funcionarán Bien
+title: Las 5 Terminales para Linux que te Funcionarán Bien
 date: 2019-06-22 00:00:00 +0100
 permalink: /mejores-terminales-linux/
 comments: true
 pic: https://res.cloudinary.com/gligan/image/upload/v1560683868/terminales_linux.png
-thumb: https://res.cloudinary.com/gligan/image/upload/w_300/terminales_linux.png
+thumb: https://res.cloudinary.com/gligan/image/upload/w_500/terminales_linux.png
 ---
 
-**Existen muchas terminales** para Linux, no las he probado todas, pero entre lo que he estado usando ---que no es poco--- **estas son las mejores**.
+**Existen muchas terminales** para Linux, no las he probado todas, pero entre lo que he estado usando ---*que no es poco*--- **estas son las mejores**.
 
 ## 1. Terminator
 
-Terminator es **una maravilla**, tranquilo; no te matará pero te será **muy útil**, no es muy bonita pero las mejores cualidades de Terminator son:
+Terminator es **una maravilla**, tranquilo; no te matará pero te será **muy útil**, no es muy aplicación bonita pero las mejores cualidades de Terminator son:
 
 1. Puedes dividir las terminales en una grilla personalizable y guardarlo.
 2. Tiene un sencillo sistema de *drag and drop*.

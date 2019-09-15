@@ -5,7 +5,7 @@ date: 2019-06-08 00:00:00 +0100
 permalink: /moc-mocp-linux-instalacion-y-temas/
 comments: true
 pic: https://res.cloudinary.com/gligan/image/upload/moc-mocp-linux-instalacion-y-temas.jpg
-thumb: https://res.cloudinary.com/gligan/image/upload/w_300/moc-mocp-linux-instalacion-y-temas.jpg
+thumb: https://res.cloudinary.com/gligan/image/upload/w_500/moc-mocp-linux-instalacion-y-temas.jpg
 ---
 
 ¿Te gusta la música, la terminal y Linux? Si es así, te aseguro que te encantará MOC, un reproductor de audio *super*liviano con el que podrás... escuchar música.
@@ -13,7 +13,7 @@ thumb: https://res.cloudinary.com/gligan/image/upload/w_300/moc-mocp-linux-insta
 Si sabes como se usa VIM te resultará muy fácil, ya que está basado en este. Ah! Y por cierto MOC significa *Music On Console*.
 
 ![MOC player in Elementary Terminal](https://res.cloudinary.com/gligan/image/upload/v1560032749/Screenshot_from_2019-06-08_22-35-38.png)
-*<center>Captura de pantalla de MOC</center>*
+*<center>Captura de pantalla de MOC—Music on Console</center>*
 
 ## Instalación de MOC.
 
@@ -23,7 +23,7 @@ sudo apt install moc
 ```
 Si usas Arch o alguna distro que esté basada en esta usa este comando:
 ```bash
-pacman -S moc
+sudo pacman -S moc
 ```
 
 Y después para ejecutarlo, escribe `mocp`. Y ya está.
@@ -49,7 +49,7 @@ Aquí te dejo un vídeo para que puedas ver cómo funciona MOC:
 
 Si tienes alguna otra duda puedes presionar la tecla `h` dentro de MOC para ver todos los comandos disponibles.
 
-## Cómo Personalizo MOC con los Temas.
+## Cómo Personalizo MOC con Temas.
 
 Tienes (en la teminal) que dirigirte a la carpeta de MOC (`cd ~/.moc/`) y si no existe crear un archivo llamado ***config*** (`nano config` o `touch config` y editarlo con tu editor preferido).
 

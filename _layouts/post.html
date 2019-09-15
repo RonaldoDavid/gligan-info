@@ -1,35 +1,115 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-{% if page.pic %}
-	<div class="d-img" style="background-image: url({{ page.pic }})">
-		<!-- añadir (en efecto espejo) el título del artúculo -->
-	</div>
-{% endif %}
+<style>
+	.logo {
+		margin-bottom: 0;
+	}
+	.cont, article {
+		max-width: 1000px !important;
+		margin: 10px auto;
+	}
 
+	.heads, .max680, ul, ol, li,
+	h2,h3,h4,h5,h6 {
+		max-width: 680px;
+		margin: 5px auto !important;
+	}
+
+	h2,h3,h4,h5,h6 {
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.content p,code,pre,blockquote,.content ul, .content ol {
+		max-width: 600px !important;
+		margin: 20px auto !important;
+	}
+
+	.heads a {
+		font-weight: 600;
+		border-bottom: 0;
+		cursor: pointer;
+	}
+
+	h1 {
+		font-size: 300% !important;
+		display: block;
+		text-align: center;
+		margin: 35px 0;
+	}
+
+	.content {
+		padding-top: 30px;
+		margin: 0 auto;
+	}
+
+	.content > * {
+		margin: 15px auto;
+		max-width: 1000px;
+	}
+
+	img {
+		display: block;
+		max-width: 1000px !important;
+		margin: 20px auto !important;
+	}
+
+	p > img, iframe {
+		display: block;
+		max-width: 600px !important;
+		width: 100%;
+		margin: 20px auto !important;
+	}
+
+	code {
+		background: blue;
+		background: #eee;
+		padding: 2px 5px;
+	}
+
+	pre {
+		background: #eee;
+		padding: 10px;
+	}
+	pre code {
+		padding: 0;
+		font-size: 13.5px;
+	}
+
+	.article-cover {
+		width: 100%;
+		min-height: 80vh;
+		background-size: cover;
+		background-repeat: none;
+		background-position: center center;
+	}
+
+</style>
+<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">-->
 <div class="cont">
 	<p class="code heads">
 		<small><a href="/">⟵ Home</a></small>
 		<time class="code" style="position: absolute;left: 50%;transform:translate(-50%, 0);">
 			<!-- {{ page.date | date: '%B %-d, %Y' }}<br> -->
 			<small>
-				{% assign day = page.date | date: "%-d"  %}
-				{% case day %}
-				  {% when '1' or '21' or '31' %}{{ day }}st
-				  {% when '2' or '22' %}{{ day }}nd
-				  {% when '3' or '23' %}{{ day }}rd
-				  {% else %}{{ day }}th
-				{% endcase %}
-				{{ page.date | date: "of %B, %Y" }}
+				{{ page.date | date: "%B " }}
+        {% assign day = page.date | date: "%-d"  %}
+        {% case day %}
+          {% when '1' or '21' or '31' %}{{ day }}<sup>st</sup>
+          {% when '2' or '22' %}{{ day }}<sup>nd</sup>
+          {% when '3' or '23' %}{{ day }}<sup>rd</sup>
+          {% else %}{{ day }}<sup>th</sup>
+        {% endcase %}
+        {{ page.date | date: " %Y" }}
 			</small>
 			<span class="sep-time-mins">—</span>
 			<small>
 				{% assign words = content | number_of_words %}
 				{% if words < 360 %}
-				  1 min
+				  1-minute
 				{% else %}
-				  {{ words | divided_by:200 }} mins
+				  {{ words | divided_by:200 }}-minute
 				{% endif %} reading
 			</small>
 		</time>
@@ -40,20 +120,23 @@ layout: default
 	</p>
 	<article>
 
-		<div class="center">
-			<h1 class="title">{{ page.title | capitalize }}</h1>
+		<div class="center" style="display:flex;justify-content:center">
+			<h1 class="title">{{ page.title }}</h1>
 		</div>
 
-		<div class="divider"></div>
-		<!-- {{ toc }}
-		<div class="divider"></div> -->
+		<!--<img src="{{ page.pic }}" alt="{{ page.title }}">-->
+		<div style="background-image: url({{ page.pic }})" class="article-cover"></div>
 
-		{{ content }}
-		
-
+		<div class="content">
+			{{ content }}
+		</div>
 	</article>
 </div>
-
+<!--<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
+<script>
+  new Darkmode().showWidget();
+</script>-->
+<!--
 <div class="bottom">
 
 <section>
@@ -98,3 +181,4 @@ layout: default
 {% endif %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
 </div>
+-->

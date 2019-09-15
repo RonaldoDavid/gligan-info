@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 【TUTORIAL】Personalizando de ⓪ a ❶⓿⓿ el BASH Prompt en Linux®
+title: 【TUTORIAL】 Personalizando de 0 a 100 el BASH Prompt en Linux®
 date: 2019-06-22 00:00:00 +0100
 permalink: /personalizar-bash-prompt-linux/
 comments: true
 pic: https://res.cloudinary.com/gligan/image/upload/photo-1545465270-b28c72a628f9.jpg
-thumb: https://res.cloudinary.com/gligan/image/upload/w_300/photo-1545465270-b28c72a628f9.jpg
+thumb: https://res.cloudinary.com/gligan/image/upload/w_500/photo-1545465270-b28c72a628f9.jpg
 ---
 
 <!-- <img style="display:block" alt="Customized Linux Prompt" src="https://res.cloudinary.com/gligan/image/upload/v1561211648/Screenshot_from_2019-06-22_15-53-07.png">-->
