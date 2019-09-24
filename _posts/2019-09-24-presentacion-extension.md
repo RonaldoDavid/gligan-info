@@ -23,8 +23,13 @@ p {
 </style>
 <div class="logos"><img src="https://res.cloudinary.com/gligan/extension/logo_4x3_positivo.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_4x3_negativo.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_square.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_rectangle.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_vertical_3e.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_e_TM_glyphs" /><img src="https://res.cloudinary.com/gligan/extension/logo_with_blue_img.png" />
 </div>
+
+___
+
+*Y este es el solgan:*
 ![](https://res.cloudinary.com/gligan/extension/logo_with_slogan_in_positive.png)
 
+___
 
 # Modelos de las Camisetas (pensar en materiales)
 
