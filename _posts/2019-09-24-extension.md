@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Presentación de Marca
+title: Presentación de Marca: Extension™
 date: 2019-09-24 00:00:00 +0100
 permalink: /extension/
 comments: true
-pic: https://res.cloudinary.com/gligan/extension/logo_with_slogan_in_positive
-thumb: https://res.cloudinary.com/gligan/extension/logo_with_slogan_in_positive
+pic: https://res.cloudinary.com/gligan/extension/hombres/hombre7
+thumb: https://res.cloudinary.com/gligan/w_500/extension/hombres/hombre7
 ---
 
 # Distintas versiones de Logo.
