@@ -10,13 +10,23 @@ thumb: https://res.cloudinary.com/gligan/w_500/extension/hombres/hombre7
 
 # Distintas versiones de Logo.
 
+<style>
+.logos {
+  display:flex;
+}
+.logos img {
+flex:1;
+padding:10px;
+width: 50%;  
+}
+</style>
 <div class="logos">
-<img src="https://res.cloudinary.com/gligan/extension/logo 4x3 positivo.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo 4x3 negativo.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo square.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo rectangle.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo vertical 3e.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo with blue img.png" />
+<img src="https://res.cloudinary.com/gligan/extension/logo_4x3_positivo.png" />
+<img src="https://res.cloudinary.com/gligan/extension/logo_4x3_negativo.png" />
+<img src="https://res.cloudinary.com/gligan/extension/logo_square.png" />
+<img src="https://res.cloudinary.com/gligan/extension/logo_rectangle.png" />
+<img src="https://res.cloudinary.com/gligan/extension/logo_vertical_3e.png" />
+<img src="https://res.cloudinary.com/gligan/extension/logo_with_blue_img.png" />
 </div>
 ![](https://res.cloudinary.com/gligan/extension/logo_with_slogan_in_positive.png)
 
@@ -30,8 +40,6 @@ thumb: https://res.cloudinary.com/gligan/w_500/extension/hombres/hombre7
 ![](https://res.cloudinary.com/gligan/extension/camisetas/camiseta3)
 
 ![](https://res.cloudinary.com/gligan/extension/camisetas/camiseta4)
-
-![](https://res.cloudinary.com/gligan/extension/camisetas/camiseta5)
 
 # Hombres
 
