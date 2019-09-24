@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presentación de Marca: Extension™
+title: "Presentación de Marca: Extension™"
 date: 2019-09-24 00:00:00 +0100
 permalink: /extension/
 comments: true
@@ -11,22 +11,17 @@ thumb: https://res.cloudinary.com/gligan/w_500/extension/hombres/hombre7
 # Distintas versiones de Logo.
 
 <style>
-.logos {
-  display:flex;
+img {
+	opacity: 1 !important;
 }
 .logos img {
-flex:1;
-padding:10px;
-width: 50%;  
+	max-width: 300px !important;
+}
+p {
+	opacity: 1 !important;
 }
 </style>
-<div class="logos">
-<img src="https://res.cloudinary.com/gligan/extension/logo_4x3_positivo.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo_4x3_negativo.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo_square.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo_rectangle.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo_vertical_3e.png" />
-<img src="https://res.cloudinary.com/gligan/extension/logo_with_blue_img.png" />
+<div class="logos"><img src="https://res.cloudinary.com/gligan/extension/logo_4x3_positivo.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_4x3_negativo.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_square.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_rectangle.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_vertical_3e.png" /><img src="https://res.cloudinary.com/gligan/extension/logo_with_blue_img.png" />
 </div>
 ![](https://res.cloudinary.com/gligan/extension/logo_with_slogan_in_positive.png)
 
