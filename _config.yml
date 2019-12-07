@@ -6,7 +6,8 @@ logo_url:           https://github.com/ronaldodavid.png
 
 # Site Settings
 #url:                https://gligan.info
-url:                https://ronaldodavid.github.io/gligan-info/
+#url:                https://ronaldodavid.github.io/gligan-info/
+url:                https://ronaldodavid.github.io/
 permalink:          /:title # Post permalink
 timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            false
